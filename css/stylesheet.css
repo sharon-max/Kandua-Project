@@ -1,0 +1,767 @@
+.burger {
+    display: flex;
+    outline: none;
+    height: 25px;
+    width: 50px;
+    border: 0px;
+    padding: 0px;
+    background: transparent;
+    transition: all 250ms ease-out;
+    cursor: pointer;
+    position: relative;
+    left: 290px;
+    bottom: 15px;
+  }
+  
+  .burger:before, .burger:after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    background: #1a1a1a;
+    transition: all 250ms ease-out;
+    will-change: transform;
+  }
+
+.burger:before {
+    transform: translateY(-3px);
+  }
+  
+  .burger:after {
+    transform: translateY(3px);
+  }
+  
+  
+  .active.burger:before {
+    transform: translateY(0) rotate(45deg);
+  }
+  
+  .active.burger:after {
+    transform: translateY(0) rotate(-45deg);
+  } 
+  
+
+.navbarI1{
+    position: relative;
+    width: 9%;
+    height: auto;
+    left: 15px;
+    bottom: -25px;
+}
+
+.navbarT1{
+    font-size: 6px;
+    left: 20px;
+}
+
+h1, h2, h3, p, a{
+    font-family: Poppins;
+}
+
+.card{
+    border: 0;
+} 
+
+.icons{
+    display: none;
+}
+
+.nav-item1{
+    display: none;
+}
+
+.text1 {
+    color: #4c95fc;
+    margin: 1.2rem;
+    font-size: 2.5rem;
+}
+
+.text2 {
+    margin: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.t3{
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.blueDiv{
+    background-color: #4c95fc;
+}
+
+.card-text1{
+    margin-top: -1.3rem;
+}
+
+.img{
+    margin-left: 1.5rem;
+}
+
+.founder{
+    margin-left: 6rem;
+    width: 35vw;
+    height: auto;
+
+}
+
+.ft{
+    color: #4c95fc;
+    text-align: center;
+    margin-left: -2rem;
+    font-size: 15px;
+}
+
+.ftS{
+    color: #4c95fc;
+    text-align: center;
+    margin-left: -2rem;
+    font-size: 15px;
+}
+
+.card-text2{
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.button1{
+    margin-left: 6rem;
+    height: 4rem;
+    width: 10rem;
+    background-color: #4c95fc;
+    border: 0;
+}
+
+.b1{
+    color: white;
+}
+
+.button2{
+    margin-left: 4rem;
+    height: 4rem;
+    width: 14rem;
+    background-color: #4c95fc;
+    border: 0;
+}
+
+.button3{
+    margin-left: 6rem;
+    height: 4rem;
+    width: 10rem;
+    background-color: #4c95fc;
+    border: 0;
+}
+
+.comments{
+    color: #4c95fc;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (min-width: 800px) {
+    /* For desktop: */
+    h1, h2, h3, p, a{
+        font-family: Poppins;
+    }
+
+    .burger {
+        display:none;
+    }
+      
+      .burger:before, .burger:after {
+        content: '';
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        background: #1a1a1a;
+        transition: all 250ms ease-out;
+        will-change: transform;
+      }
+    
+    .burger:before {
+        transform: translateY(-3px);
+      }
+      
+      .burger:after {
+        transform: translateY(3px);
+      }
+      
+      
+      .active.burger:before {
+        transform: translateY(0) rotate(45deg);
+      }
+      
+      .active.burger:after {
+        transform: translateY(0) rotate(-45deg);
+      } 
+      
+    
+    .navbarI1{
+        position: relative;
+        width: 3%;
+        height: auto;
+        left: 40px;
+        bottom: -25px;
+    }
+    
+    .navbarT1{
+        font-size: 6px;
+        left: 20px;
+    }
+    
+    .founders{
+        column-count: 2;
+    }
+
+    .card{
+        border: 0;
+    } 
+    
+    .card-text2{
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .icons{
+        display: inline;
+        position: relative;
+        left: 1220px;
+        bottom: 70px;
+
+    
+    }
+    
+    .nav-item1{
+        display: inline;
+        position: relative;
+        left: 100px;
+        bottom: 5px;
+    }
+    
+    .text1 {
+        color: #4c95fc;
+        margin: 1.2rem;
+        font-size: 3rem;
+        margin-left: 7.5rem;
+        
+    }
+    
+    .text2 {
+        margin: 1.2rem;
+        font-size: 1.3rem;
+        margin-left: 7.5rem;
+        margin-right: 6rem;
+    }
+
+    .fb{
+        position: relative;
+        left: 10px;
+    }
+
+    .in{
+        position: relative;
+        left: 20px;
+    }
+    
+    .t3{
+        text-align: center;
+        margin-left: 1rem;
+    }
+    
+    .blueDiv{
+        background-color: #4c95fc;
+        column-count: 3;
+    }
+    
+    .card-text1{
+        margin-top: -1.3rem;
+    }
+    
+    .img{
+        margin-left: 1.5rem;
+    }
+    
+    .founder{
+        margin-left: 6rem;
+        width: 10vw;
+        height: auto;
+    
+    }
+    
+    .ft{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: 1rem;
+        font-size: 15px;
+        margin-top: 3rem;
+    }
+    
+    .ftS{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: -16rem;
+        font-size: 15px;
+        margin-top: 3rem;
+    }
+
+    .ftT{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: -12rem;
+        margin-top: 3rem; 
+    }
+    
+    .card-text2{
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .button1{
+        margin-left: 37rem;
+        height: 4rem;
+        width: 10rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -32rem;
+        
+    }
+    
+    .b1{
+        color: white;
+    }
+    
+    .button2{
+        margin-left: 35rem;
+        height: 4rem;
+        width: 14rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -5rem;
+    }
+        
+    
+    .button3{
+        margin-left: 37rem;
+        height: 4rem;
+        width: 10rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -7rem;
+    }
+    
+    .comments{
+        position: relative;
+        color: #4c95fc;
+        margin-left: 35rem;
+        font-size: 1.5rem;
+        top: 2rem;
+        
+    }
+
+    .arju{
+        position: relative;
+        left: 11rem;
+        margin-right: 30rem;
+    }
+
+    .arjun{
+        position: relative;
+        margin-left: 7.5rem;
+        bottom: 5rem;   
+    }
+
+    .say{
+        position: relative;
+        margin-left: 4rem;
+        top: -4rem;
+    }
+
+    .sayo{
+        position: relative;
+        margin-left: -2rem;
+        bottom: 8rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1280px) {
+    /* For desktop: */
+    h1, h2, h3, p, a{
+        font-family: Poppins;
+    }
+    
+    .card{
+        position: relative;
+        border: 0;
+        display: inline;
+        top: 2rem;
+    } 
+
+    .text1 {
+        color: #4c95fc;
+        margin: 1.2rem;
+        font-size: 3rem;
+        margin-left: 7.5rem;
+    }
+    
+    .text2 {
+        margin: 1.2rem;
+        font-size: 1.5rem;
+        margin-left: 7.5rem;
+        margin-right: 6rem;
+    }
+    
+    .blueDiv{
+        background-color: #4c95fc;
+        column-count: 3;
+    }
+
+    /* .number1{
+        position: relative;
+        display: inline-block;
+        margin-left: 8rem; 
+    } */
+
+    .number2{
+        position: relative;
+       top: 1.5rem;
+       left: -6rem;
+    }
+
+    .number3{
+        position: relative;
+        top: 1.5rem;
+        left: -5rem;
+    }
+    
+    .card-text1{
+        
+        position: relative;
+        display: inline;
+        top: -1rem;
+        right: 7rem;
+
+    }
+
+    .comments{
+        position: relative;
+        color: #4c95fc;
+        margin-left: 7.5rem;
+        font-size: 1.5rem;
+        top: 2rem;
+    }
+    
+    .img{
+        margin-left: 1rem; 
+    }
+    .card-img{
+        padding: 120px;
+        position: relative;
+        bottom: 7rem;
+    }
+
+    .mb-4{
+        position: relative;
+        top: -10rem;
+    }
+
+    .mb-5{
+        position: relative;
+        top: -22rem;
+    }
+
+    .mb-6{
+        position: relative;
+        top: -5rem;
+    }
+    .c{
+        margin-right: 5rem;
+    }
+    
+    .founder{
+        padding: 3rem;
+        top: -1rem;
+        width: 40%;
+        height: auto;
+    }
+
+    .founders{
+        column-count: 2;
+    }
+
+    .arju{
+        position: relative;
+        left: 11rem;
+        margin-right: 30rem;
+    }
+
+    .arjun{
+        position: relative;
+        margin-left: 7.5rem;
+        bottom: 5rem;
+        
+    }
+
+    .say{
+        position: relative;
+        margin-left: 4rem;
+        top: -4rem;
+    }
+
+    .sayo{
+        position: relative;
+        margin-left: -2rem;
+        bottom: 8rem;
+    }
+    
+    .ft{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 3rem; 
+    }
+
+    .ftT{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: -12rem;
+        margin-top: 3rem; 
+    }
+
+    .ftS{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: -16rem;
+        margin-top: 3rem; 
+    }
+    
+    .card-text2{
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .button1{
+        margin-left: 37rem;
+        height: 4rem;
+        width: 10rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -32rem;
+    }
+    
+    .b1{
+        color: white;
+    }
+    
+    .button2{
+        margin-left: 35rem;
+        height: 4rem;
+        width: 14rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -5rem;
+    }
+    
+    .button3{
+        margin-left: 37rem;
+        height: 4rem;
+        width: 10rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -7rem;
+    }
+   
+  }
+
+@media only screen and (min-width: 1920px) {
+    /* large Device: */
+    h1, h2, h3, p, a{
+        font-family: Poppins;
+    }
+    
+    .card{
+        position: relative;
+        border: 0;
+        display: inline;
+        top: 2rem;
+    } 
+
+    .text1 {
+        color: #4c95fc;
+        margin: 1.2rem;
+        font-size: 3rem;
+        margin-left: 7.5rem;
+    }
+    
+    .text2 {
+        margin: 1.2rem;
+        font-size: 1.5rem;
+        margin-left: 7.5rem;
+        margin-right: 6rem;
+    }
+    
+    .blueDiv{
+        background-color: #4c95fc;
+        column-count: 3;
+    }
+
+    /* .number1{
+        position: relative;
+        display: inline-block;
+        margin-left: 8rem; 
+    } */
+
+    .number2{
+        position: relative;
+       top: 1.5rem;
+       left: -6rem;
+    }
+
+    .number3{
+        position: relative;
+        top: 1.5rem;
+        left: -5rem;
+    }
+    
+    .card-text1{
+        
+        position: relative;
+        display: inline;
+        top: -1rem;
+        right: 7rem;
+
+    }
+
+    .comments{
+        position: relative;
+        color: #4c95fc;
+        margin-left: 7.5rem;
+        font-size: 1.5rem;
+        top: 2rem;
+    }
+    
+    .img{
+        margin-left: 1rem; 
+    }
+    .card-img{
+        padding: 120px;
+        position: relative;
+        bottom: 7rem;
+    }
+
+    .mb-4{
+        position: relative;
+        top: -10rem;
+    }
+
+    .mb-5{
+        position: relative;
+        top: -22rem;
+    }
+
+    .mb-6{
+        position: relative;
+        top: -5rem;
+    }
+    .c{
+        margin-right: 5rem;
+    }
+    
+    .founder{
+        padding: 3rem;
+        top: -1rem;
+    }
+
+    .founders{
+        column-count: 2;
+    }
+
+    .arju{
+        position: relative;
+        left: 17rem;
+        margin-right: 30rem;
+    }
+
+    .arjun{
+        position: relative;
+        margin-left: 7.5rem;
+        bottom: 5rem;
+        
+    }
+
+    .say{
+        position: relative;
+        margin-left: 12rem;
+        top: -4rem;
+    }
+
+    .sayo{
+        position: relative;
+        margin-left: -2rem;
+        bottom: 8rem;
+    }
+    
+    .ft{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 3rem; 
+    }
+
+    .ftT{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: -12rem;
+        margin-top: 3rem; 
+    }
+
+    .ftS{
+        color: #4c95fc;
+        text-align: center;
+        margin-left: -16rem;
+        margin-top: 3rem; 
+    }
+    
+    .card-text2{
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .button1{
+        margin-left: 52rem;
+        height: 4rem;
+        width: 10rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -32rem;
+    }
+    
+    .b1{
+        color: white;
+    }
+    
+    .button2{
+        margin-left: 50rem;
+        height: 4rem;
+        width: 14rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -5rem;
+    }
+    
+    .button3{
+        margin-left: 52rem;
+        height: 4rem;
+        width: 10rem;
+        background-color: #4c95fc;
+        border: 0;
+        margin-top: -7rem;
+    }
+   
+  }
